@@ -1,0 +1,8 @@
+#!/bin/sh
+
+GIT_WORK_TREE=~/maha-hw4/Deployment/deploy/green-www/ git checkout -f
+
+export GIT_WORKING_DIR=~/maha-hw4/Deployment/deploy/green-www/
+
+cd "$GIT_WORKING_DIR"
+npm install
